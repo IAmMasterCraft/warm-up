@@ -136,3 +136,55 @@ html {
     color: hsl(0, 100%, 74%);
     font-weight: 700;
 }
+
+
+
+
+
+
+/* media queries */
+@media only screen and (min-width: 1000px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .left-column {
+        text-align: left;
+        padding-right: 50px;
+    }
+
+    .left-column h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .left-column p {
+        font-size: 1.1rem;
+    }
+
+    .right-column {
+        max-width: 500px;
+    }
+
+    .right-column .box {
+        padding: 20px;
+    }
+
+    .right-column .box p {
+        font-size: 1.1rem;
+    }
+
+    .right-column .form-holder {
+        padding: 40px;
+    }
+
+    .right-column input,
+    .right-column input::placeholder {
+        font-size: 1.05rem;
+    }
+
+    .right-column .form-base {
+        margin-top: 20px;
+        font-size: 0.7rem;
+    }
+}
